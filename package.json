@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^2.2.0",
+    "discord-api-types": "^0.37.73",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "zod": "^3.22.4"
+  },
+  "name": "discord-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/app/index.js",
+    "dev": "ts-node-dev --ignore-watch node_modules src/app/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
